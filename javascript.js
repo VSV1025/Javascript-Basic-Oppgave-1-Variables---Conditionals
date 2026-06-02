@@ -123,5 +123,5 @@ if (userMale === true) {
 console.log(userTitle);
 */
 
-const userTitle = userMale === true ? "Mr." : "Mrs.";
+const userTitle = userMale ? "Mr." : "Mrs.";
 console.log(userTitle);
